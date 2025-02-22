@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.chessBoard{
+    margin: auto;
+    width: 100vh;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+}
+
+.brown {
+    background-color: rgb(83, 45, 45);
+}
+
+.beige{
+    background-color: rgb(252, 252, 214);
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.moving{
+    border: 5px solid rgb(29, 114, 29);
+}
+
+.legalMove{
+    border: 5px solid rgb(23, 221, 23);
+}
+
+.take{
+    border: 5px solid rgb(192, 29, 26);
+}
